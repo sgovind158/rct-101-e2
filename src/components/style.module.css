@@ -1,0 +1,22 @@
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    border: 1px solid red;
+    gap :20px;
+    text-align: center;
+  color : teal
+   
+}
+
+.grid  div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+}
